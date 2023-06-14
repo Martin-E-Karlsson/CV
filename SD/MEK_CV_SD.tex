@@ -1,0 +1,244 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{profile_image_2022_cropped.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Martin Karlsson \\ % Your name
+\scriptsize\url{m.karlsson91@gmail.com} \\ % Your email address
+% \url{www.johnsmith.com} \\ % Your URL
++46 707251066 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+Kölvägen 4 \\ % Address 1
+42338 Torslanda \\ % Address 2
+Sweden \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Martin Karlsson} % Large heading - your name
+
+\cvsubheading{Software Developer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{I am a Python based software developer with a broad educational background. I find it very satisfying to create practical solutions for tricky technical problems. I'm a sociially driven person and therefore I prefer working as part of a team rather than alone. I always try to stay open minded and entertain every possiblity which comes my way.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+% Lägg till nuvarande utbildning och skriv om Chalmers utbildning till en post med annan formattering
+
+%------------------------------------------------
+
+\CVItem{2020-2022, Teknikhögskolan}{AI focused Python Developer \textit{(Vocational Training)}}
+
+%------------------------------------------------
+
+%\CVItem{2019, CodeCademy.com}{Programming with Python \textit{(Course)}}
+
+%------------------------------------------------
+
+\CVItem{2015, Vuxenutbildningen Burgården}{À la carte Chef \textit{(Vocational Training)}}
+
+%------------------------------------------------
+
+\CVItem{2013 - 2014, Chalmers University of Technology}{Civil Engineer Information Technology \textit{(No Examination)}}
+
+%------------------------------------------------
+
+\CVItem{2010 - 2012, Chalmers University of Technology}{Civil Engineer Electro Technology \textit{(No Examination)}}
+
+%------------------------------------------------
+
+\CVItem{2007 - 2010, Göteborgsregionens Tekniska Gymnasium}{College Preparatory Technical High School Program}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{2021-2022, \textit{Software Developer Internship}, Eningo AB / Atritec AB}{
+Achievements:
+\begin{itemize}
+	\item Trained machine learning models for image classifaction and object detection
+	\item Designed a first draft for a machinelearning pipeline
+	\item Used Google Cloud Platform to bypass local performance limitations
+\end{itemize}
+}
+
+%------------------------------------------------
+\CVItem{December 2018 - June 2019, \textit{Software Developer}, Freemelt AB}{
+Achievements:
+\begin{itemize}
+	\item Designed and developed a software tool in Python for visualizing 3D-printer design patterns as images
+	\item Designed and edited the user manual for the main product in LaTeX
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{January 2018 – November 2019, \textit{Technical Advisor}, Nordic Webhelp}
+{Achievements:
+\begin{itemize}
+	\item Worked as telephone based technical support
+	\item Solved problems concerning user accounts and billing
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{May 2016 – December 2016, \textit{Chef}, Boulebar Rosenlund}
+%{Achievements:
+%\begin{itemize}
+%	\item Worked independently in an à la carte restaurant kitchen
+%	\item Worked with buffet preparation
+%\end{itemize}
+%}
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Skills}
+
+% To be edited: Lägg till nya programmeringsfärdigheter
+
+%------------------------------------------------
+
+\CVItem{Software Development}
+{\begin{tabular}{p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth}}
+\bluebullet Python & \bluebullet HTML & \bluebullet CSS & \bluebullet Git & \bluebullet Flask\\
+\bluebullet MySQL & \bluebullet MongoDB & \bluebullet DenseNet & \bluebullet C\# & \bluebullet Java\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Other}
+{\begin{itemize}
+	\item User interface design 
+	\item Planning and execution of dinner events with up to 100 guests
+%	\item Association based election committee work
+	\item Management of association finances 
+\end{itemize}}
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Communication Skills}
+
+%------------------------------------------------
+
+%\CVItem{2015, \textit{Oral Presentation}, California Business Conference}{Presented research I conducted for my Masters of Engineering degree.}
+
+%------------------------------------------------
+
+%\CVItem{2014, \textit{Poster}, Annual Business Conference (Oregon)}{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+% \clearpage % Start a new page
+
+% \userinformation % Print your information in the left column
+
+% \framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Awards}
+
+%------------------------------------------------
+
+%\CVItem{2010, \textit{Postgraduate Scholarship}, Cornell University}{Awarded to the top student in their final year of a Bachelors degree.}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Interests}
+
+%------------------------------------------------
+
+%\CVItem{Professional}{Data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing}
+
+%------------------------------------------------
+
+%\CVItem{Personal}{Piano, chess, cooking, dancing, running}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
