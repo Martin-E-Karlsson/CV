@@ -1,0 +1,266 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.9\columnwidth]{MEK2024_cropped.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Martin Karlsson \\ % Your name
+\hspace*{-1cm} m.karlsson91@gmail.com\\
+% \url{www.johnsmith.com} \\ % Your URL
+070-7251066 \\ % Your phone number
+%\textbf{Address} \\
+Kölvägen 4 \\ % Address 1
+42338 Torslanda \\ % Address 2
+%Sverige \\ % Address 3
+\Sep
+Referenser: \\
+Lämnas vid förfrågan\\
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{CV Martin Karlsson} % Large heading - your name
+
+%\cvsubheading{Mjukvaruutvecklare} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Om Mig}{Jag är utbildad mjukkvarutvecklare och kock med otaliga intressen och alltid på jakt efter nya erfarenheter. Jag gillar att lösa problem och försöker alltid balansera pragmatik och kreativitet i mina lösningar. Jag är socialt driven och är van vid att arbeta mot kunder, jag försöker alltid vara diplomatisk och hjälpsam gentemot mot alla jag möter professionellt.}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Erfarenhet}
+
+%------------------------------------------------
+\CVItem{\textit{Software Developer Internship}, Eningo AB / Atritec AB, 2021 - 2022}{
+\begin{itemize}
+	\item Tränade maskininlärningsmodeller för bildigenkänning och objektdetektering
+	\item Designade ett koncept för en maskininlärnings-pipeline
+	\item Utnyttjade molntjänster för att överskrida lokalt tillgänglig prestanda
+	\item Samlade, valde ut och annoterade data för träning av en AI maskininlärningsmodell
+\end{itemize}
+}
+
+\CVItem{\textit{Mjukvaruingenjör}, Freemelt AB, 2018 - 2019}{
+\begin{itemize}
+	\item Designade och programmerade ett verktyg i Python för att visualisera ritningar för en 3D-skrivare som bilder
+	\item Lärde mig grundläggande Python programmering och anslöt mig till mjukvaruutvecklingslaget
+	\item Designade och redigerade manualen för företagets produkt i LaTeX
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{\textit{Technical Advisor}, Webhelp Nordic, 2018}{
+\begin{itemize}
+	\item Arbetade som teknisk support över telefon
+	\item Vägledde kunder i varierande grad av frustration genom felsökning
+	\item Löste problem med användarkonton och betalningar
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{\textit{Kock}, Boulebar Rosenlund, 2016}{
+\begin{itemize}
+	\item Arbetade med flertalet roller i ett à la carte kök
+	\item Arbetade med tillredning av bufféer
+	\item Skötte på egen hand tillredning av rätter från ingredients till uppläggning på tallrik
+	\item Gavs ofta kommando över ett eget kök under skift
+\end{itemize}
+}
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Utbildning}
+
+% Lägg till nuvarande utbildning och skriv om Chalmers utbildning till en post med annan formattering
+
+%------------------------------------------------
+
+\CVItem{Teknikhögskolan, 2020 - 2023}{Pythonutvecklare med Intriktning AI \textit{(Utbildning)}}
+
+%------------------------------------------------
+
+%\CVItem{2019, CodeCademy.com}{Programming with Python \textit{(Kurs)}}
+
+%------------------------------------------------
+
+\CVItem{Vuxenutbildningen Burgården, 2015}{Restaurang Kock \textit{(Utbildning)}}
+
+%------------------------------------------------
+
+\CVItem{Chalmers Tekniska Högskola, 2013 - 2014}{ Civilingenjör Informationsteknik \textit{(Ej examinerad)}}
+
+%------------------------------------------------
+
+\CVItem{Chalmers Tekniska Högskola, 2010 - 2012}{Civilingenjör Elektroteknik \textit{(Ej examinerad)}}
+
+%------------------------------------------------
+
+\CVItem{Göteborgsregionens Tekniska Gymnasium, 2007 - 2010}{Specialinriktat tekniskt gymnasieprogram}
+
+%------------------------------------------------
+
+ \clearpage % Start a new page
+
+ \userinformation % Print your information in the left column
+
+ \framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Färdigheter}
+
+% To be edited: Lägg till nya programmeringsfärdigheter
+
+%------------------------------------------------
+
+\CVItem{Programmering}
+{\begin{tabular}{p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth}}
+\bluebullet Python & \bluebullet HTML & \bluebullet CSS & \bluebullet Git\\ 
+\bluebullet Flask & \bluebullet MySQL & \bluebullet MongoDB & \bluebullet DenseNet \\
+\bluebullet C\# & \bluebullet Java  & \bluebullet Pandas \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Mjukvara}
+{\begin{tabular}{p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth}}
+\bluebullet Photoshop & \bluebullet MS Office & \bluebullet LaTeX & \bluebullet QT\\
+\end{tabular}}
+
+
+%------------------------------------------------
+
+\CVItem{Språk}
+{\begin{tabular}{p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth} p{0.13\textwidth}}
+\bluebullet Svenska & \bluebullet Engelska & \bluebullet Franska \\
+\end{tabular}}
+
+
+%------------------------------------------------
+
+\CVItem{Övriga färdigheter}
+{\begin{itemize}
+	\item Design av användargränssnitt 
+	\item Planering arrangemang med upp till 100 gäster
+	\item Utförande av valberedningsarbete
+	\item Förvaltning av föreningsekonomi
+\end{itemize}}
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Communication Skills}
+
+%------------------------------------------------
+
+%\CVItem{2015, \textit{Oral Presentation}, California Business Conference}{Presented research I conducted for my Masters of Engineering degree.}
+
+%------------------------------------------------
+
+%\CVItem{2014, \textit{Poster}, Annual Business Conference (Oregon)}{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+% \clearpage % Start a new page
+
+% \userinformation % Print your information in the left column
+
+% \framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Awards}
+
+%------------------------------------------------
+
+%\CVItem{2010, \textit{Postgraduate Scholarship}, Cornell University}{Awarded to the top student in their final year of a Bachelors degree.}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Interests}
+
+%------------------------------------------------
+
+%\CVItem{Professional}{Data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing}
+
+%------------------------------------------------
+
+%\CVItem{Personal}{Piano, chess, cooking, dancing, running}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
